@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\DevOps\Projects\MAVEN\PROJECTS\googlepay\bus_ticket\target/bus_ticket.zip">
+    <zipfileset includes="lib/**" dir="D:\DevOps\Projects\MAVEN\PROJECTS\googlepay\bus_ticket\target"/>
+    <zipfileset includes="bus_ticket.jar" dir="D:\DevOps\Projects\MAVEN\PROJECTS\googlepay\bus_ticket\target"/>
+    <zipfileset includes="readme.txt" dir="D:\DevOps\Projects\MAVEN\PROJECTS\googlepay\bus_ticket"/>
+  </zip>
+</target>
+</project>
